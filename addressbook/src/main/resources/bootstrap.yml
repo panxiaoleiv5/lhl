@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    consul:
+      ##注册中心ip地址
+      host: 47.106.207.69
+      ##注册中心监听端口
+      port: 8500
+      discovery:
+        register: true
+        ##注册实例id
+        instance-id: addressbook-service
+    config:
+      fail-fast: true
+      name: addressbook,consul,rabbit,druid
+      label: master
+      discovery:
+        enabled: true
+        serviceId: config-service

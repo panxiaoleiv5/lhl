@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/addressbook/addressbook.iml" filepath="$PROJECT_DIR$/addressbook/addressbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duty/duty.iml" filepath="$PROJECT_DIR$/duty/duty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lhl.iml" filepath="$PROJECT_DIR$/lhl.iml" />
+    </modules>
+  </component>
+</project>

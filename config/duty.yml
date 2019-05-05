@@ -20,4 +20,4 @@ mybatis:
 feign:
   remote:
     ##调用商品微服务名称
-    addrressbook-service: addrressbook-service
+    addressbook-service: addressbook-service

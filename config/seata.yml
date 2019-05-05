@@ -13,7 +13,5 @@ logging:
             seata:
               web: info
 
-logging:
-  level:
     io:
       seata: info

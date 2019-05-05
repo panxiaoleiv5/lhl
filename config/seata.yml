@@ -1,5 +1,5 @@
 spring:
   cloud:
     alibaba:
-      fescar:
+      seata:
         tx-service-group: my_test_tx_group

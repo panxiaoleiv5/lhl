@@ -1,0 +1,23 @@
+server:
+  port: 8083
+  context-path: /
+
+spring:
+  application:
+    name: duty-service
+  profiles:
+      active: dev
+  datasource:
+    url: jdbc:mysql://106.75.213.54:33037/lhl?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: yuexun123
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  typeAliasesPackage: com.pxl.duty.entity
+  mapperLocations: classpath:com/yuexunit/duty/mapperxml/*.xml
+
+feign:
+  remote:
+    ##调用商品微服务名称
+    duty-service: duty-service
